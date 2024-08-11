@@ -1,4 +1,0 @@
-/Users/niccolo_ciavarelli/Documents/geant/S3P3/learn/lab2sim/build/CMakeFiles/lab2run.dir
-/Users/niccolo_ciavarelli/Documents/geant/S3P3/learn/lab2sim/build/CMakeFiles/Lab2.dir
-/Users/niccolo_ciavarelli/Documents/geant/S3P3/learn/lab2sim/build/CMakeFiles/edit_cache.dir
-/Users/niccolo_ciavarelli/Documents/geant/S3P3/learn/lab2sim/build/CMakeFiles/rebuild_cache.dir
