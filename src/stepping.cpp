@@ -38,9 +38,9 @@ void MySteppingAction::UserSteppingAction(const G4Step *step)
         man->FillNtupleDColumn(1, 0, track->GetPosition().x()/ mm); //x posirion in cm
         man->FillNtupleDColumn(1, 1, track->GetPosition().y()/ mm); //y posirion in cm
         man->FillNtupleDColumn(1, 2, track->GetPosition().z()/ mm); //z posirion in cm
-        man->FillNtupleIColumn(1, 3, (track->GetCreatorProcess()->GetProcessName() == "Decay")); //check if the particle is an electron 
+        man->FillNtupleIColumn(1, 3, (track->GetCreatorProcess()->GetProcessName() == "Decay")); //check if the particle derive from a decayment 
         man->FillNtupleIColumn(1, 4, (partName == "e-")); //check if the particle is an electron
-        man->FillNtupleIColumn(1, 5, (physVolume == "physFeMat")); //check if the volume is Aluminium
+        man->FillNtupleIColumn(1, 5, (physVolume == "physFeMat")); //check if the volume is Iron
         man->FillNtupleIColumn(1, 6, 1); //count the total number of secondary particles
         man->FillNtupleDColumn(1, 7, kinE); //get kinetic energy
         man->FillNtupleIColumn(1, 8, currentEvent); //Save the eventID
@@ -49,15 +49,11 @@ void MySteppingAction::UserSteppingAction(const G4Step *step)
 
     if((parentID == 1) && stopCondition && track->GetCreatorProcess()->GetProcessName() == "Decay")
     {
-        //G4cout << "Particle process : "<< track->GetCreatorProcess()->GetProcessName() << "\n";
-        //G4cout << "Particle : "<< partName << "\n";
-        //G4cout << "Material : "<< physVolume << "\n";
-        //G4cout << "ID : "<< currentEvent << "\n";
 
         man->FillNtupleDColumn(2, 0, track->GetPosition().x()/ mm); //x posirion in cm
         man->FillNtupleDColumn(2, 1, track->GetPosition().y()/ mm); //y posirion in cm
         man->FillNtupleDColumn(2, 2, track->GetPosition().z()/ mm); //z posirion in cm
-        man->FillNtupleIColumn(2, 3, (physVolume == "physSiMat")); //check if the volume is Aluminium
+        man->FillNtupleIColumn(2, 3, (physVolume == "physSiMat")); //check if the volume is Silicon
         man->FillNtupleIColumn(2, 4, (physVolume == "physFeMat")); //check if the volume is Iron
         man->FillNtupleIColumn(2, 5, (partName == "e-")); //check if the particle stopped is an electron
         man->FillNtupleIColumn(2, 6, 1); //count all secondary particles that stops

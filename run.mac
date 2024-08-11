@@ -1,31 +1,19 @@
 /gun/energy 500 MeV
 /blocks/nBlocks 1
 /run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
 /blocks/nBlocks 2
 /run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
 /blocks/nBlocks 3
 /run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
 /blocks/nBlocks 4
 /run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
 /blocks/nBlocks 5
 /run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
 /blocks/nBlocks 6
 /run/reinitializeGeometry
-/run/beamOn 10000000
-/blocks/nBlocks 7
-/run/reinitializeGeometry
-/run/beamOn 10000000
-/blocks/nBlocks 8
-/run/reinitializeGeometry
-/run/beamOn 10000000
-/blocks/nBlocks 9
-/run/reinitializeGeometry
-/run/beamOn 10000000
-/blocks/nBlocks 10
-/run/reinitializeGeometry
-/run/beamOn 10000000
+/run/beamOn 1000000
