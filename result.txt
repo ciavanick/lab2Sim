@@ -1,51 +1,61 @@
 Rate analysis
 
 Processing analysis.cpp(0, "build/output0.root")...
-Numbers of electrons produced in 0.5 cm of Iron : 100
+Numbers muons decay 0.5 cm of Iron : 0
+Numbers of electron that were produced in 0.5 cm of Iron : 0
 Numbers of electron that were produced in 0.5 cm of Iron, absorbed : 0
 Numbers of electron that were produced in 0.5 cm of Iron, not absorbed : 0
 
 Processing analysis.cpp(1, "build/output1.root")...
-Numbers of electrons produced in 1 cm of Iron : 100
-Numbers of electron that were produced in 1 cm of Iron, absorbed : 0
+Numbers muons decay 1 cm of Iron : 1
+Numbers of electron that were produced in 1 cm of Iron : 1
+Numbers of electron that were produced in 1 cm of Iron, absorbed : 1
 Numbers of electron that were produced in 1 cm of Iron, not absorbed : 0
 
 Processing analysis.cpp(2, "build/output2.root")...
-Numbers of electrons produced in 1.5 cm of Iron : 100
+Numbers muons decay 1.5 cm of Iron : 0
+Numbers of electron that were produced in 1.5 cm of Iron : 0
 Numbers of electron that were produced in 1.5 cm of Iron, absorbed : 0
 Numbers of electron that were produced in 1.5 cm of Iron, not absorbed : 0
 
 Processing analysis.cpp(3, "build/output3.root")...
-Numbers of electrons produced in 2 cm of Iron : 100
+Numbers muons decay 2 cm of Iron : 0
+Numbers of electron that were produced in 2 cm of Iron : 0
 Numbers of electron that were produced in 2 cm of Iron, absorbed : 0
 Numbers of electron that were produced in 2 cm of Iron, not absorbed : 0
 
 Processing analysis.cpp(4, "build/output4.root")...
-Numbers of electrons produced in 2.5 cm of Iron : 104
-Numbers of electron that were produced in 2.5 cm of Iron, absorbed : -2
-Numbers of electron that were produced in 2.5 cm of Iron, not absorbed : 2
+Numbers muons decay 2.5 cm of Iron : 7
+Numbers of electron that were produced in 2.5 cm of Iron : 7
+Numbers of electron that were produced in 2.5 cm of Iron, absorbed : 6
+Numbers of electron that were produced in 2.5 cm of Iron, not absorbed : 1
 
 Processing analysis.cpp(5, "build/output5.root")...
-Numbers of electrons produced in 3 cm of Iron : 101
-Numbers of electron that were produced in 3 cm of Iron, absorbed : -1
-Numbers of electron that were produced in 3 cm of Iron, not absorbed : 1
+Numbers muons decay 3 cm of Iron : 16
+Numbers of electron that were produced in 3 cm of Iron : 16
+Numbers of electron that were produced in 3 cm of Iron, absorbed : 10
+Numbers of electron that were produced in 3 cm of Iron, not absorbed : 6
 
 Processing analysis.cpp(6, "build/output6.root")...
-Numbers of electrons produced in 3.5 cm of Iron : 103
-Numbers of electron that were produced in 3.5 cm of Iron, absorbed : -3
-Numbers of electron that were produced in 3.5 cm of Iron, not absorbed : 3
+Numbers muons decay 3.5 cm of Iron : 30
+Numbers of electron that were produced in 3.5 cm of Iron : 30
+Numbers of electron that were produced in 3.5 cm of Iron, absorbed : 18
+Numbers of electron that were produced in 3.5 cm of Iron, not absorbed : 12
 
 Processing analysis.cpp(7, "build/output7.root")...
-Numbers of electrons produced in 4 cm of Iron : 105
-Numbers of electron that were produced in 4 cm of Iron, absorbed : -4
-Numbers of electron that were produced in 4 cm of Iron, not absorbed : 4
+Numbers muons decay 4 cm of Iron : 71
+Numbers of electron that were produced in 4 cm of Iron : 71
+Numbers of electron that were produced in 4 cm of Iron, absorbed : 43
+Numbers of electron that were produced in 4 cm of Iron, not absorbed : 28
 
 Processing analysis.cpp(8, "build/output8.root")...
-Numbers of electrons produced in 4.5 cm of Iron : 112
-Numbers of electron that were produced in 4.5 cm of Iron, absorbed : -9
-Numbers of electron that were produced in 4.5 cm of Iron, not absorbed : 9
+Numbers muons decay 4.5 cm of Iron : 143
+Numbers of electron that were produced in 4.5 cm of Iron : 143
+Numbers of electron that were produced in 4.5 cm of Iron, absorbed : 101
+Numbers of electron that were produced in 4.5 cm of Iron, not absorbed : 42
 
 Processing analysis.cpp(9, "build/output9.root")...
-Numbers of electrons produced in 5 cm of Iron : 124
-Numbers of electron that were produced in 5 cm of Iron, absorbed : -19
-Numbers of electron that were produced in 5 cm of Iron, not absorbed : 19
+Numbers muons decay 5 cm of Iron : 221
+Numbers of electron that were produced in 5 cm of Iron : 221
+Numbers of electron that were produced in 5 cm of Iron, absorbed : 156
+Numbers of electron that were produced in 5 cm of Iron, not absorbed : 65
