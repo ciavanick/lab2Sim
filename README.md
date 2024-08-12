@@ -3,6 +3,7 @@
 The ide behinf this GEANT4 simulatin is to reproduce the behaviour of a muon in iron slabs. Counting the number of electrons that derive from the decayment of the muons in iron and the number of electrons absorbed and not absorbed.
 
 ## Design
+<img width="159" alt="lab2runDesign" src="https://github.com/user-attachments/assets/95ec60b3-6cf8-4fc7-b00e-04dfa5c063ce">
 
 The simulation is based on a mu- particle that is sent in the -y direction, passing through a 1 m thick concrete block before arriving in the iron slabs (there are also 2 0.001 mm silicon slabs, that will be removed).
 
