@@ -60,6 +60,17 @@ All the result are stored in the `result.txt` file.
 ##  run.mac file
 The `run.mac` can be changed, right now it generates 6 run with 1000000 of events (muons) each run and every muon has an energy of 500 MeV.
 
+With:
+
+-`/gun/energy value unitOfMeasurement` the energy value of the muon can be changed;
+
+-`/blocks/nBlocks numberOfSlabs` the number of slabs can be changed (every slab is 0.5 cm), but every time thenumber of slabs is changed the command `/run/reinitializeGeometry` is needed;
+
+-`/gun/particle typeOfParticle` the type of particle can be changed;
+
+-`/run/beamOn numberOfEvents` the number of events per run can be changed.
+
+
 ## Additional notes
 This is a rather basic simulation, that will be refined and expanded.
 
